@@ -8,9 +8,9 @@ int main()
 {
   //declare variables
   string first, last;
-  cout<<"What is your first name? ";
+  cout<<"What is your first name?"<<endl;
   cin>>first;
-  cout<<"What is your last name? ";
+  cout<<"What is your last name?"<<endl;
   cin>>last;
   cout<<"Welcome, "<<first[0]<<"."<<last[0]<<"., here is your fortune..."<<endl;
   //tell fortune
